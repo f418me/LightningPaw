@@ -2,20 +2,18 @@
 
 LNBits is an application that sits on top of the Lightning network and implements various protocols such as LNURLw. There are also other possibilities but in our case we’ll be using LNBits.
 LNBits can be run on your own Lightning Node or you can use a hosted wallet.
-In our demo example, we use the Legend solution hosted by [LNBits](https://legend.lnbits.com)
+In our demo example, we use the Legend solution hosted by [LNBits](https://legend.lnbits.com).
 
 ## Setup a new Wallet
-
- ![](https://raw.githubusercontent.com/f418me/LightningPaw/master/images/lnbits_account.png)
+<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/lnbits_account.png" alt="drawing" width="300"/>
+<br>
 
 ## Activate LNURLw Extension.
  
 Send some sats to the wallet.
 Generate a new LNURLw link and customize it.
 
-
- ![](https://raw.githubusercontent.com/f418me/LightningPaw/master/images/lnbits_lnurlw.png)
-
+<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/lnbits_lnurlw.png" alt="lnbits lnurlw" width="300"/>
 
 Now we get an URL which lock like this:
 

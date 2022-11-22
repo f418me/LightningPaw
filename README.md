@@ -110,7 +110,7 @@ This static LNURLw URL can be used to do payments with NFC chips.
 
 
 ## LNBits
-LNBits is an application that sits on top of the Lightning network and implements various protocols such as LNURLw. There are also other possibilities but in our case we’ll be using LNBits. Details can be found [here](https://github.com/f418me/LightningPaw/descriptions/lnbits_setup.me).
+LNBits is an application that sits on top of the Lightning network and implements various protocols such as LNURLw. There are also other possibilities but in our case we’ll be using LNBits. Details can be found [here](https://github.com/f418me/LightningPaw/blob/master/descriptions/lnbits_setup.md).
 
 
 <!-- SETUP NFC IMPLANT -->
@@ -127,7 +127,7 @@ The record must be the LNURlw URL string with the prefix "lightning:"
    lightning:LNURL1DP68GURN8GHJ7MR9ZAJKUEPWD4HWY6T5WVHXXMMD9AMWJARGV3EXZAE0V5CXJTMGXYHKCMN2WFGZ7DJ9VU68X328VF3K8J6TXS64QNN02PA9J4RE0VLVCR
    ```
 
-After that, we just write this record to the implant and we are ready to pay. Details can be found [here](https://github.com/f418me/LightningPaw/descriptions/implant_setup.me).
+After that, we just write this record to the implant and we are ready to pay. Details can be found [here](https://github.com/f418me/LightningPaw/blob/master/descriptions/implant_setup.md).
 
 
 

@@ -5,7 +5,7 @@ LNBits can be run on your own Lightning Node or you can use a hosted wallet.
 In our demo example, we use the Legend solution hosted by [LNBits](https://legend.lnbits.com).
 
 ## Setup a new Wallet
-<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/lnbits_account.png" alt="drawing" width="300"/>
+<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/lnbits_account.png" alt="drawing" width="400"/>
 <br>
 
 ## Activate LNURLw Extension.
@@ -13,7 +13,7 @@ In our demo example, we use the Legend solution hosted by [LNBits](https://legen
 Send some sats to the wallet.
 Generate a new LNURLw link and customize it.
 
-<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/lnbits_lnurlw.png" alt="lnbits lnurlw" width="300"/>
+<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/lnbits_lnurlw.png" alt="lnbits lnurlw" width="400"/>
 
 Now we get an URL which lock like this:
 

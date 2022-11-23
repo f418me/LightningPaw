@@ -10,7 +10,7 @@ We need a device to write a NFC Tag to the implant. The simplest solution is jus
 ## Reading NFC implant
 First we just check if we can read the implant.
 
-<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_read_implant.png" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_read_implant.png" alt="drawing" width="250"/>
 
 <br>
 
@@ -21,18 +21,18 @@ phone_add_record
 
 he record must be the LNURlw URL string with the prefix "lightning:"
 
-<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_lnurlw.png" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_lnurlw.png" alt="drawing" width="250"/>
 
-<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_tag.png" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_tag.png" alt="drawing" width="250"/>
 
 <br>
 Now we can write down the record
 
-<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_write.png" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_write.png" alt="drawing" width="250"/>
 
 <br>
 
 ## Verify record on implant
 After writing the record we can just read the implant again an check if we see the record.
 
-<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_finished.png" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/phone_finished.png" alt="drawing" width="250"/>

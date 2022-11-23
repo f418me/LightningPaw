@@ -7,7 +7,7 @@
     <img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/bild_hand_payment.png" alt="LightningPaw" width="500">
   </a>
 
-  <h3 align="center">Lightning Paw, pay with your hand</h3>
+  <h3 align="center">Lightning Paw, pay with your hand!</h3>
 
   <p align="center">
     Lightning payments with an implant.
@@ -49,11 +49,6 @@ Consequently, it should also be possible to authorize Bitcoin lightning payments
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 <!-- LNURLw BOLTCARD -->
 ## LNURLw vs. Boldcard
 
@@ -63,8 +58,6 @@ Unfortunately, there are no implants of this type on the market at the moment. T
 
 Thus, we have to keep it simple and use the not really secure static LNURLw. It is not a problem since we can limit the amount per transaction and also how often a payment can be authorized. 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -140,7 +133,6 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 International License. To view a copy of this license, visit
 [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -148,9 +140,6 @@ International License. To view a copy of this license, visit
 ## Contact
 
 f418.me - [f418_me](https://twitter.com/f418_me) - info@f418.me
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 

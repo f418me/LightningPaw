@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/f418me/LightningPaw">
-    <img src="https://github.com/f418me/LightningPaw/images/bild_hand_payment.png" alt="LightningPaw" width="500">
+    <img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/bild_hand_payment.png" alt="LightningPaw" width="500">
   </a>
 
   <h3 align="center">Lightning Paw, pay with your hand</h3>

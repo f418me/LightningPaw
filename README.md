@@ -23,7 +23,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-lightningpaw">About the LightningPaw</a></li>
-    <li><a href="#LNURLw-Boldcard">LNURLw vs. Boldcard</a></li>
+    <li><a href="#LNURLw-Boltcard">LNURLw vs. Boltcard</a></li>
     <li><a href="#LNURL">LNURL</a></li>
     <li><a href="#disclaimer">Disclaimer</a></li>
     <li><a href="#implants">Implants</a></li>
@@ -95,9 +95,9 @@ In general, it can be said that you need an Android phone to write. Reading work
 <!-- LNURL -->
 ## LNURL
 
-LNURL is a stack of simple protocols for coordinating information needed to make payments over the Lightning Network using HTTP. A full documentation about LNURL can be found here. 
+LNURL is a stack of simple protocols for coordinating information needed to make payments over the Lightning Network using HTTP. A full documentation about LNURL can be found [here](https://github.com/lnurl/luds). 
 The LNURL protocol contains 3 core features such as an authentication scheme, where a public key can be used to log in to a service, an invoice request scheme where a wallet can ping a server through a static QR code (URL) and retrieve an invoice, and a withdraw request scheme where a wallet can ping the server and request that the server pays an invoice provided by the wallet. 
-The LNURLw withdrawal works by giving the wallet an URL to ping the service and in response, receiving a description which contains a URL to send an invoice to, a random string (or deterministic to tie to an account or user) and a minimum amount aswell as a maximum amount that can be withdrawn. After filling in the appropriate value, the wallet returns the invoice to the server;if it is valid and within the amount parameters, the service on the server pays the invoice.
+The LNURLw withdrawal works by giving the wallet an URL to ping the service and in response, receiving a description which contains an URL to send an invoice to, a random string (or deterministic to tie to an account or user) and a minimum amount as well as a maximum amount that can be withdrawn. After filling in the appropriate value, the wallet returns the invoice to the server. If it is valid and within the amount parameters, the service on the server pays the invoice.
 
 This static LNURLw URL can be used to do payments with NFC chips.
 

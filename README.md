@@ -46,6 +46,8 @@ When it comes to contactless payments, the first thing that comes to mind is NFC
 
 Consequently, it should also be possible to authorize Bitcoin lightning payments with a chip implanted in the hand.
 
+Video can be found on [youtube](https://youtu.be/rDX40V_sWQY).
+
 
 
 

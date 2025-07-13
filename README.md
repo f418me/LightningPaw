@@ -1,46 +1,12 @@
 
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/f418me/LightningPaw">
-    <img src="https://raw.githubusercontent.com/f418me/LightningPaw/master/images/bild_hand_payment.png" alt="LightningPaw" width="500">
-  </a>
-
-  <h3 align="center">Lightning Paw, pay with your hand!</h3>
-
-  <p align="center">
-    Lightning payments with an implant.
-    <br />
-    <br />
-  </p>
-</div>
+# LightningPaw
+Lightning Paw - Bitcoin Lightning payments with an implant.
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-lightningpaw">About the LightningPaw</a></li>
-    <li><a href="#LNURLw-Boltcard">LNURLw vs. Boltcard</a></li>
-    <li><a href="#LNURL">LNURL</a></li>
-    <li><a href="#disclaimer">Disclaimer</a></li>
-    <li><a href="#implants">Implants</a></li>
-    <li><a href="#setup-nfc-implant">Setup NFC Implant</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
 
 
-
-<!-- ABOUT THE LIGHTNINGPAW -->
 ## About The LightningPaw
-
-<!-- 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
--->
 
 When it comes to contactless payments, the first thing that comes to mind is NFC cards, which are widely used. In principle, however, there are also various other variants of NFC chips, such as stickers, rings or even implants. As long as the NFC chips meet the necessary standards, it doesn't matter what form the chip takes.
 
@@ -58,12 +24,9 @@ The easiest way to authorize a Bitcoin Lightning payment with a card is to simpl
 
 Unfortunately, there are no implants of this type on the market at the moment. There are implants with additional security and encryption options, but they are not compatible.
 
-Thus, we have to keep it simple and use the not really secure static LNURLw. It is not a problem since we can limit the amount per transaction and also how often a payment can be authorized. 
+Thus, we have to keep it simple and use the not really secure static LNURLw. It is not a problem since we can limit the amount per transaction and also how often a payment can be authorized.
 
 
-
-
-<!-- DISCLAIMER -->
 ## Disclaimer
 
 Static LNURLw links are not secure and not suitable for large amounts. Firstly, the chip can be read. Secondly, the static URL is communicated to the POS device during a payment. So the link could then be used to make further withdrawals.
@@ -74,7 +37,6 @@ Regarding implants, it does not tolerate fun. Implant placement, if done incorre
 
 
 
-<!-- IMPLANTS -->
 ## Implants
 
 There are various implants. But pay attention, the simple RFID models that are implanted into cats do not work.  They just have an ID and it's not possible to write a custom tag on it. It must be possible to create an own tag on the NFC implant.
@@ -94,7 +56,6 @@ In general, it can be said that you need an Android phone to write. Reading work
 
 
 
-<!-- LNURL -->
 ## LNURL
 
 LNURL is a stack of simple protocols for coordinating information needed to make payments over the Lightning Network using HTTP. A full documentation about LNURL can be found [here](https://github.com/lnurl/luds). 
@@ -108,7 +69,6 @@ This static LNURLw URL can be used to do payments with NFC chips.
 LNBits is an application that sits on top of the Lightning network and implements various protocols such as LNURLw. There are also other possibilities but in our case we’ll be using LNBits. Details can be found [here](https://github.com/f418me/LightningPaw/blob/master/descriptions/lnbits_setup.md).
 
 
-<!-- SETUP NFC IMPLANT -->
 ## Setup NFC implant
 
 We need a device to write a NFC Tag to the implant. The simplest solution is just to use an Android smartphone and the App NFC Tools.
@@ -129,7 +89,6 @@ After that, we just write this record to the implant and we are ready to pay. De
 
 
 
-<!-- LICENSE -->
 ## License
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 International License. To view a copy of this license, visit
@@ -141,13 +100,4 @@ International License. To view a copy of this license, visit
 <!-- CONTACT -->
 ## Contact
 
-f418.me - [f418_me](https://twitter.com/f418_me) - info@f418.me
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/company/f418-me/
-[product-screenshot]: images/screenshot.png
+[https://f418.me](https://f418.me) - [info@f418.me](mailto:info@f418.me)  
